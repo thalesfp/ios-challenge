@@ -13,6 +13,14 @@
 		1260C3AD1B6DD1D4001EED76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1260C3AC1B6DD1D4001EED76 /* Images.xcassets */; };
 		1260C3B01B6DD1D4001EED76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1260C3AE1B6DD1D4001EED76 /* LaunchScreen.xib */; };
 		1260C3BC1B6DD1D4001EED76 /* ios_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1260C3BB1B6DD1D4001EED76 /* ios_challengeTests.swift */; };
+		1260C3C81B6DD6F4001EED76 /* FlickrApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1260C3C71B6DD6F4001EED76 /* FlickrApiManager.swift */; };
+		1265BF341B6EA4C60088D474 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265BF331B6EA4C60088D474 /* Photo.swift */; };
+		1265BF381B6EF00F0088D474 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265BF371B6EF00F0088D474 /* PhotoCollectionViewCell.swift */; };
+		1265BF3A1B6F12C40088D474 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265BF391B6F12C40088D474 /* PhotoViewController.swift */; };
+		1265BF401B6F3FFD0088D474 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265BF3F1B6F3FFD0088D474 /* Comment.swift */; };
+		1265BF421B6F45C10088D474 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265BF411B6F45C10088D474 /* CommentTableViewCell.swift */; };
+		1265BF461B6F54A60088D474 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265BF451B6F54A60088D474 /* PhotoTableViewCell.swift */; };
+		C16C025E5743CCD1019F16C0 /* Pods_ios_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42428350357BB150DAAA94F0 /* Pods_ios_challenge.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,16 @@
 		1260C3B51B6DD1D4001EED76 /* ios-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1260C3BA1B6DD1D4001EED76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1260C3BB1B6DD1D4001EED76 /* ios_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_challengeTests.swift; sourceTree = "<group>"; };
+		1260C3C71B6DD6F4001EED76 /* FlickrApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrApiManager.swift; sourceTree = "<group>"; };
+		1265BF331B6EA4C60088D474 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1265BF371B6EF00F0088D474 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		1265BF391B6F12C40088D474 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		1265BF3F1B6F3FFD0088D474 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		1265BF411B6F45C10088D474 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		1265BF451B6F54A60088D474 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		206B3F4418EA6AEAC9FC1798 /* Pods-ios-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-challenge/Pods-ios-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		2BAC2A2D4F9BBBF3816EF83D /* Pods-ios-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-challenge/Pods-ios-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		42428350357BB150DAAA94F0 /* Pods_ios_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16C025E5743CCD1019F16C0 /* Pods_ios_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +81,8 @@
 				1260C3A21B6DD1D4001EED76 /* ios-challenge */,
 				1260C3B81B6DD1D4001EED76 /* ios-challengeTests */,
 				1260C3A11B6DD1D4001EED76 /* Products */,
+				40D2B19953E4157934730E68 /* Pods */,
+				9B8862DD980B94E17460930A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,7 +98,13 @@
 		1260C3A21B6DD1D4001EED76 /* ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				1265BF311B6EA48C0088D474 /* API */,
+				1265BF321B6EA4A20088D474 /* Models */,
 				1260C3A51B6DD1D4001EED76 /* AppDelegate.swift */,
+				1265BF411B6F45C10088D474 /* CommentTableViewCell.swift */,
+				1265BF451B6F54A60088D474 /* PhotoTableViewCell.swift */,
+				1265BF371B6EF00F0088D474 /* PhotoCollectionViewCell.swift */,
+				1265BF391B6F12C40088D474 /* PhotoViewController.swift */,
 				1260C3A71B6DD1D4001EED76 /* ViewController.swift */,
 				1260C3A91B6DD1D4001EED76 /* Main.storyboard */,
 				1260C3AC1B6DD1D4001EED76 /* Images.xcassets */,
@@ -112,6 +139,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1265BF311B6EA48C0088D474 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1260C3C71B6DD6F4001EED76 /* FlickrApiManager.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		1265BF321B6EA4A20088D474 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1265BF331B6EA4C60088D474 /* Photo.swift */,
+				1265BF3F1B6F3FFD0088D474 /* Comment.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		40D2B19953E4157934730E68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				206B3F4418EA6AEAC9FC1798 /* Pods-ios-challenge.debug.xcconfig */,
+				2BAC2A2D4F9BBBF3816EF83D /* Pods-ios-challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B8862DD980B94E17460930A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42428350357BB150DAAA94F0 /* Pods_ios_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1260C3BF1B6DD1D4001EED76 /* Build configuration list for PBXNativeTarget "ios-challenge" */;
 			buildPhases = (
+				7076E62CB4269EDEBB683A1C /* Check Pods Manifest.lock */,
 				1260C39C1B6DD1D4001EED76 /* Sources */,
 				1260C39D1B6DD1D4001EED76 /* Frameworks */,
 				1260C39E1B6DD1D4001EED76 /* Resources */,
+				63CD474633E80ECCC158780C /* Embed Pods Frameworks */,
+				CD6F0BF5FB8685FDA8CE037C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +271,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63CD474633E80ECCC158780C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-challenge/Pods-ios-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7076E62CB4269EDEBB683A1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6F0BF5FB8685FDA8CE037C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-challenge/Pods-ios-challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1260C39C1B6DD1D4001EED76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1265BF461B6F54A60088D474 /* PhotoTableViewCell.swift in Sources */,
+				1265BF341B6EA4C60088D474 /* Photo.swift in Sources */,
 				1260C3A81B6DD1D4001EED76 /* ViewController.swift in Sources */,
+				1265BF401B6F3FFD0088D474 /* Comment.swift in Sources */,
+				1265BF421B6F45C10088D474 /* CommentTableViewCell.swift in Sources */,
+				1260C3C81B6DD6F4001EED76 /* FlickrApiManager.swift in Sources */,
+				1265BF3A1B6F12C40088D474 /* PhotoViewController.swift in Sources */,
 				1260C3A61B6DD1D4001EED76 /* AppDelegate.swift in Sources */,
+				1265BF381B6EF00F0088D474 /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +459,7 @@
 		};
 		1260C3C01B6DD1D4001EED76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206B3F4418EA6AEAC9FC1798 /* Pods-ios-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ios-challenge/Info.plist";
@@ -350,6 +470,7 @@
 		};
 		1260C3C11B6DD1D4001EED76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAC2A2D4F9BBBF3816EF83D /* Pods-ios-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ios-challenge/Info.plist";
@@ -411,6 +532,7 @@
 				1260C3C11B6DD1D4001EED76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1260C3C21B6DD1D4001EED76 /* Build configuration list for PBXNativeTarget "ios-challengeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +541,7 @@
 				1260C3C41B6DD1D4001EED76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
